@@ -7,7 +7,7 @@ The back-end database has been purposed towards e-commerce websites using Expres
 ## GIF:
 
 The following animation demonstrates the application functionality:
-![A user clicks on slots on the color-coded calendar and edits the events.](/public/assets/Images/ORM.GIF)
+![A user clicks on slots on the color-coded calendar and edits the events.]()
 
 ## Usage Instructions
 1. Repository: Open documentation run 'npm i' and update '.env'.
@@ -21,4 +21,4 @@ The following animation demonstrates the application functionality:
 [GitHub Repository:](https://github.com/xJohnnyy/JohnnyORM-Ecommerce)
 
 ## Walkthrough Video:
-[Click Here to Watch](link)
+[Click Here to Watch](linkk)
