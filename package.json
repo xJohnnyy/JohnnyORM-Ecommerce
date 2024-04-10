@@ -20,6 +20,7 @@
     "url": "https://github.com/xJohnnyy/JohnnyORM-Ecommerce"
   },
   "dependencies": {
+    "core-util-is": "^1.0.3",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "json": "^11.0.0",
