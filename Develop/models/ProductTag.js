@@ -6,25 +6,24 @@ class ProductTag extends Model {}
 
 ProductTag.init(
   {
-    // Define columns for the product_tag table
     id: {
-      type: DataTypes.INTEGER, // Set the data type to INTEGER
-      allowNull: false, // Disallow NULL values
-      primaryKey: true, // Set as the primary key
-      autoIncrement: true, // Automatically increment the value for each new record
+      type: DataTypes.INTEGER, 
+      allowNull: false, 
+      primaryKey: true, 
+      autoIncrement: true,
     },
     tag_id: {
-      type: DataTypes.INTEGER, // Set the data type to INTEGER
+      type: DataTypes.INTEGER, 
       references: {
-        model: "tag", // Reference the 'tag' table
-        key: "id", // Reference the 'id' column in the 'tag' table
+        model: "tag", 
+        key: "id", 
       },
     },
     product_id: {
-      type: DataTypes.INTEGER, // Set the data type to INTEGER
+      type: DataTypes.INTEGER, 
       references: {
-        model: "product", // Reference the 'product' table
-        key: "id", // Reference the 'id' column in the 'product' table
+        model: "product",
+        key: "id", 
       },
     },
   },
